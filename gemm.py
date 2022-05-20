@@ -65,16 +65,3 @@ if __name__ == "__main__":
     print(f"mat_t b1 = {b1};")
     ref = gemm(a, b, c, a1, b1)
     print_Cformat(ref, name="ref")
-
-
-
-
-
-
-
-
-
-
-
-
-    

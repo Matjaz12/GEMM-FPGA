@@ -11,4 +11,4 @@ C Synthesis of GEMM targeting `NexysA7 100t Board (Part: xc7acsg324-1)`
 </figure>
 
 ## Usage
-To generate test matrices: `python gemm.py <SIZE> <RANGE> <ALPHA> <BETA>` \
+To generate test matrices: `python gemm.py <SIZE> <RANGE> <ALPHA> <BETA>` 
