@@ -53,7 +53,8 @@ if __name__ == "__main__":
 
     a = np.random.randint(0, RANGE, size=(SIZE,SIZE))
     b = np.random.randint(0, RANGE, size=(SIZE,SIZE))
-    c = np.zeros((SIZE, SIZE))
+    #c = np.zeros((SIZE, SIZE), dtype=int)
+    c = np.random.randint(0, RANGE, size=(SIZE,SIZE))
 
     a1 = ALPHA
     b1 = BETA

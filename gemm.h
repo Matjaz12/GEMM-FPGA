@@ -9,13 +9,18 @@ using namespace std;
 #define HW_COSIM
 
 #define SIZE 16
-
+/*
+ * SIZE 	 = 3 ... 3x3 matrix
+ * SIZE		 = 16 ... 16x16 matrix
+ * SIZE      = 32 ... 32x32 matrix
+ * SIZE		 = 64 ... 64x64 matrix
+ */
 
 typedef int mat_t;
 
 
 // Prototype of top level function for C-synthesis
-void gemm(
+void __attribute__ ((noinline)) gemm(
       int alpha,
       int beta,
       mat_t a[SIZE][SIZE],
