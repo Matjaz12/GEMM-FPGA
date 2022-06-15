@@ -1,7 +1,8 @@
 # General Matrix Multiplication (GEMM)
 
 ## About
-The project was developed for course: `Computer Systems (Master's degree, FRI 2022)`. 
+The project was developed for course [Computer Systems](https://www.fri.uni-lj.si/en/course/63509).
+ 
 
 ## Info
 Vivado HLS is used to optimize GEMM operation. In these seminar we explore the use
